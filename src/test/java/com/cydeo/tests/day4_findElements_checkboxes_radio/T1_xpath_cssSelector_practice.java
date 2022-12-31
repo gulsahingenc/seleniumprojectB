@@ -53,7 +53,7 @@ public class T1_xpath_cssSelector_practice {
 
 
         //e. “Retrieve password” button
-        WebElement retrivePassword= driver.findElement(By.xpath("/button[@id='form_submit']"));
+        WebElement retrivePassword= driver.findElement(By.xpath("//button[@id='form_submit']"));
 
 
         //f. “Powered by Cydeo text
