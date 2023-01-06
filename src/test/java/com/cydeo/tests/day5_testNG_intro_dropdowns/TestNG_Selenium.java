@@ -42,7 +42,7 @@ public class TestNG_Selenium {
         String actualTitle=driver.getTitle();
         String expectedTitle="Google";
 
-        Assert.assertEquals(actualTitle, expectedTitle);
+        Assert.assertEquals(actualTitle, expectedTitle, "Title is not matching here.");
 
     }
 }
