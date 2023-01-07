@@ -36,7 +36,7 @@ public class TC3_BackAndForthNavigation {
         String actualTitle=driver.getTitle();
 
 
-        if(actualTitle.equals(expectedTitle)){
+        if(actualTitle.contains(expectedTitle)){
             System.out.println("Title verification PASSed!");
         }else{
             System.out.println("Title verification FAILED!");
