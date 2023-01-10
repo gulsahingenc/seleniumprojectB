@@ -20,7 +20,7 @@ public class T4_cssSelector_getText {
 
         //3- Verify “Reset password” button text is as expected:
         //Expected: Reset password
-        //                  tagName[attribute='value']
+        //                tagName[attribute='value']
 
         //locating reset password button using class attribute and its value
         //WebElement resetPasswordButton = driver.findElement(By.cssSelector("button[class='login-btn']"));

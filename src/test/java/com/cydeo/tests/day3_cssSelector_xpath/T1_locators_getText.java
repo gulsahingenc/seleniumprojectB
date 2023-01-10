@@ -2,6 +2,7 @@ package com.cydeo.tests.day3_cssSelector_xpath;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -28,14 +29,14 @@ public class T1_locators_getText {
         //driver.findElement(By.className("login-inp")).sendKeys("incorrect");
 
         WebElement inputUsername= driver.findElement(By.className("login-inp"));
-        inputUsername.sendKeys("incorrect");
+        inputUsername.sendKeys("incorrect"+ Keys.ENTER);
 
         //4- Enter incorrect password: “incorrect”
         //To auto generate local variable
         //Mac: option + enter
         //Windows: alt + enter
         WebElement inputPassword = driver.findElement(By.name("USER_PASSWORD"));
-        inputPassword.sendKeys("incorrect");
+        inputPassword.sendKeys("incorrect"+Keys.ENTER);
 
         //5- Click to log in button.
         WebElement loginButton = driver.findElement(By.className("login-btn"));

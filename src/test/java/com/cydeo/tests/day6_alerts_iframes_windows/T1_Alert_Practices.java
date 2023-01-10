@@ -14,10 +14,7 @@ import java.util.concurrent.TimeUnit;
 public class T1_Alert_Practices {
 
     //TC #1: Information alert practice
-
-
-
-    WebDriver driver;
+   WebDriver driver;
    @BeforeMethod
     public void setupMethod(){
     //1. Open browser

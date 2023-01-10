@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class T4_findElements {
+public class T4_findElementsArray {
 
     public static void main(String[] args) {
 
